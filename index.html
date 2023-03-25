@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title for the code challenge-->
+    <title>Code challenge</title>
+    <!--link to css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h2 id="navbar">Student Grade Calculator</h2>
+        <!--form input for student grade calculator-->
+        <input type="number" placeholder="Input your Marks" id="grade" min="1" max="100">
+        <button onclick="calculateGrade()" id="btn" type="submit"
+            class="btn btn-sm btn-outline-dark btn-secondary btn-lg" required>Submit</button>
+        <p id="result"></p>
+    </div>
+    <div id="container">
+        <h2 id="navbar">Speed Detector</h2>
+
+        <!--form input for speed detector-->
+        <!--take speed from 1 to 220-->
+        <input type="number" placeholder="Input speed" id="speeds" min="1" max="220">
+        <button onclick="checkSpeed()" id="btn" type="submit" class="btn btn-sm btn-outline-dark btn-secondary btn-lg"
+            required>Submit</button>
+        <p id="out"></p>
+        <p id="display"></p>
+    </div>
+    <div class="salary">
+        <h1 class="titles">Net Salary Calculator</h1>
+        <p>
+            Gross Salary<br />
+            <input type="number" id="salary" placeholder="Gross Salary"><br />
+            Benefits<br />
+            <input type="number" id="benefit" placeholder="Benefits" value="0"><br />
+            <button class="net_btn" onclick="calculateSalary()">Calculate Net Salary</button>
+        </p>
+        <p id="netsalary"></p>
+    </div>
+    <!-- link to the javascript files-->
+    <script src="./src/net.js"></script>
+    <script src="./src/index.js"></script>
+    <script src="./src/speed.js"></script>
+</body>
+
+</html>

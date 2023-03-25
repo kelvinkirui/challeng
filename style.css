@@ -1,0 +1,23 @@
+/* apply styling to the entire body */
+body {
+    margin-top: 0px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(0, 26, 255);
+}
+/* Apply styling to all the p tag */
+p {
+    color: black;
+    padding-right: 5pc;
+    font-weight:bold;
+}
+/* apply styling to the element with salary id*/
+#salary{
+    height:30px;
+    width:300px;
+}
+/*style element with benefit id */
+#benefit{
+    height:30px;
+    width:300px
+}
